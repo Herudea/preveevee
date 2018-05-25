@@ -9,9 +9,9 @@ import {
   decrementAsync
 } from '../../modules/counter';
 
-const Home = props => (
+const Dashboard = props => (
   <div>
-    <h1>Home</h1>
+    <h1>Dashboard</h1>
     <p>Count: {props.count}</p>
 
     <p>
@@ -58,4 +58,4 @@ const mapDispatchToProps = dispatch =>
     dispatch
   );
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default connect(mapStateToProps, mapDispatchToProps)(Dashboard);

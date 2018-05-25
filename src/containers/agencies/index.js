@@ -1,10 +1,10 @@
 import React from 'react';
 
-const About = () => (
+const Agencies = () => (
   <div>
-    <h1>About Page</h1>
+    <h1>Agencies Page</h1>
     <p>Did you get here via Redux?</p>
   </div>
 );
 
-export default About;
+export default Agencies;
